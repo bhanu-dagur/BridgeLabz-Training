@@ -1,3 +1,4 @@
+using System;
 class DataType
 {
     public static void Main(String [] args)
@@ -43,6 +44,33 @@ class DataType
         Console.WriteLine("object2: " + obj2);
         Console.WriteLine("var num: " + num);
         Console.WriteLine("var text: " + text);
+        Console.WriteLine("Type Casting ");
+        TypeCasting();
         
+    }
+    public static void TypeCasting()
+    {
+        int x= 10;
+        // int → double (automatic || implicitly type casting)
+        double y = x;   
+        Console.WriteLine(y);
+
+        
+        double d= 10.75;
+        // double → int (explicitly )
+        int i = (int)d;   
+        Console.WriteLine(i);
+
+        // String to integer
+        string s = "25";
+        int num = Convert.ToInt32(s);
+        Console.WriteLine(num);
+
+        string str = "50";
+        int n = int.Parse(str);
+        Console.WriteLine(n);
+
+
+    
     }
 }

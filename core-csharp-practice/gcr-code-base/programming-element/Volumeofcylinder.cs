@@ -1,6 +1,5 @@
 using System;
-
-class Volumeofcylinder
+class VolumeOfCylinder
 {
     public static void Main()
     {

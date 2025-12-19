@@ -1,6 +1,6 @@
 using System;
 
-class Simpleinterest
+class SimpleInterest
 {
     public static void Main()
     {

@@ -1,4 +1,5 @@
-class Tempconversion
+using System;
+class TempConversion
 {
     public static void Main(string[] args)
     {

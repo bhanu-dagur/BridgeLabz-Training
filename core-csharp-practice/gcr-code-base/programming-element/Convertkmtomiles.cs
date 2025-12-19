@@ -1,4 +1,5 @@
-class Convertkmtomiles
+using System;
+class ConvertKmToMiles
 {
     public static void Main()
     {

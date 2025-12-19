@@ -1,4 +1,5 @@
-class Avgofthree
+using System;
+class AvgOfThree
 {
     public static void Main()
     {

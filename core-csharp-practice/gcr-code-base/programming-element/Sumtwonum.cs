@@ -1,4 +1,5 @@
-class Sumtwonum
+using System;
+class SumTwoNum
 {
     public static void Main(string[] args)
     {

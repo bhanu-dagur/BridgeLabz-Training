@@ -1,4 +1,5 @@
-class Areaofrectangle
+using System;
+class AreaOfRectangle
 {
     public static void Main()
     {

@@ -1,10 +1,11 @@
+using System;
 class Operator
 {
-    static void Main(String [] args)
+    public static void Main(String [] args)
     {
         ArithmeticOperation(2,3);
         RelationalOperator(2,3);
-       LogicalOperator(false,true);
+        LogicalOperator(false,true);
         UnaryOperator(5);
         TernaryOperator(10,12);
         AssignmentOperator(2,3);
@@ -80,6 +81,9 @@ class Operator
         Console.WriteLine("Max value from a and b " + max); 
 
     }
+
+    
+    
 
 
 }

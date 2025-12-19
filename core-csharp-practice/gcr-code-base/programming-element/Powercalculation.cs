@@ -1,16 +1,17 @@
-class Powercalculation
+using System;
+class PowerCalculation
 {
     static void Main()
     {
-        double baseval, power,result;
+        double baseVal, power,result;
 
-        Console.Write("Enter baseval number: ");
-        baseval = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter baseVal number: ");
+        baseVal = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Enter power: ");
         power = Convert.ToDouble(Console.ReadLine());
 
-        result = Math.Pow(baseval, power);
+        result = Math.Pow(baseVal, power);
 
         Console.WriteLine("Result = " + result);
     }
