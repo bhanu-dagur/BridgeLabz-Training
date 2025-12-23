@@ -58,6 +58,31 @@ This repository documents my **daily learning progress and hands-on practice** d
 
 ---
 
+## 📅 Date: 22 December 2025
+
+### 📘 Topics Covered
+- **C# Access Modifiers**
+## Topics Studied Today
+- Control Flow in C# (Overview)
+- Conditional Statements
+  - if statement
+  - if-else statement
+  - else-if ladder
+- Switch Statement
+- Looping Statements
+  - for loop
+  - while loop
+  - do-while loop
+- Jump Statements
+  - break
+  - continue
+#### - Practical implementation of Contol-Flow in programs(assignment)
+---
+
+
+
+
+
 ## 🚀 Current Status
 I am actively learning, practicing daily, and updating this repository with new concepts, exercises, and assignments as part of my **BridgeLabz company training**.
 
