@@ -77,10 +77,27 @@ This repository documents my **daily learning progress and hands-on practice** d
   - break
   - continue
 #### - Practical implementation of Contol-Flow in programs(assignment)
+
 ---
 
+## 📅 Date: 23 December 2025
 
+### 📘 Topics Covered
+- **C# Arrays**
+## Topics Studied Today
+- Introduction to Arrays in C#
+- Declaring an Array
+- Initializing an Array
+- Accessing Array Elements
+- Array Length Property
+- Looping through Arrays
+  - for loop
+  - foreach loop
+- Single/Multidimensional Dimensional Array
+- Basic Array Operations
+####  - Practical implementation of Arrays(assignment)
 
+---
 
 
 ## 🚀 Current Status
