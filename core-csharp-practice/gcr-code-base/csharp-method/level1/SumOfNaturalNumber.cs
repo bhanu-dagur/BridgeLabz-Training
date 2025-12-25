@@ -1,0 +1,27 @@
+using System;
+
+class SumOfNaturalNumber
+{
+    
+    static int FindSum(int n)
+    {
+        int sum = 0;
+
+        for (int i = 1; i <= n; i++)
+        {
+            sum = sum + i;
+        }
+
+        return sum;
+    }
+
+    static void Main(string[] args)
+    {
+        Console.Write("Enter a number: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        int result = FindSum(n);
+
+        Console.WriteLine("Sum of first " + n + " natural numbers is: " + result);
+    }
+}
