@@ -1,9 +1,11 @@
 /*
 Date-> 29/12/2025
-Question: Missing Number
+Question: leetcode 268 Missing Number
 Given an array nums containing n distinct numbers in the range [0, n], 
 return the only number in the range that is missing from the array.
 
+Input: nums = [3,0,1]
+Output: 2
 */
 
 public class Solution {
