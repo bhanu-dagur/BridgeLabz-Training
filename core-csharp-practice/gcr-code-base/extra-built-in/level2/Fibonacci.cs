@@ -1,23 +1,33 @@
 using System;
+
 class Fibonacci
 {
     static void Main()
     {
-        Console.WriteLine("Enter the number of the terms");
-        int term=Convert.ToInt32(Console.ReadLine());
-        FindFibonacci(term);
+        Console.WriteLine("Enter the number of terms:");
+        int n = Convert.ToInt32(Console.ReadLine());
 
+        FindFibonacci(n);
     }
+
     static void FindFibonacci(int n)
     {
-        int firstTerm=0;
-        int secondTerm=1;
-        for(int i = 2; i < n; i++)
+        int first = 0;
+        int second = 1;
+
+        if (n >= 1)
+            Console.Write(first + " ");
+
+        if (n >= 2)
+            Console.Write(second + " ");
+
+        for (int i = 3; i <= n; i++)
         {
-            Console.Write(firstTerm);
-            Console.Write(secondTerm);
-            firstTerm=secondTerm;
-            secondTerm=firstTerm+secondTerm;
+            int next = first + second;
+            Console.Write(next + " ");
+
+            first = second;
+            second = next;
         }
     }
 }
