@@ -99,6 +99,48 @@ This repository documents my **daily learning progress and hands-on practice** d
 
 ---
 
+## 📅 Date: 24 December 2025
+
+### 📘 Topics Covered
+- **📌C# Method**
+## Topics Studied Today
+1. User-Defined Methods  
+2. Using Methods Multiple Times  
+3. Making Methods More Dynamic  
+4. Recursive Methods  
+5. Static Methods in C#  
+6. .NET Standard Library Methods  
+7. System.Math Class in C#
+####  - Practical implementation of Method(assignment) 
+- This module focuses on understanding **methods in C#**, their usage, reusability, and importance
+        in building structured and maintainable applications using .NET.
+---
+
+## 📅 Date: 26 December 2025
+### 📘 Topics Covered
+- **📌C# String**
+## Topics Studied Today
+1. C# Strings  
+2. Creating Strings  
+3. Use of "\\" Escape Sequence  
+4. Taking String Input  
+5. String Arrays  
+6. String as Method Parameters  
+7. String Class Built-In Methods  
+8. ASCII Character Codes  
+9. C# Exceptions
+####  - Practical implementation of String(assignment)     
+- This module covers **string handling in C#**, including creation, manipulation, built-in methods, and ASCII concepts.  
+It also introduces **exception handling**, exception hierarchy, and different types of exceptions used in .NET applications
+
+---
+
+✅ **Status:** Completed  
+📌 **Topic:** C# Strings & Exceptions
+
+
+
+✅ **Status:** Completed  
 
 ## 🚀 Current Status
 I am actively learning, practicing daily, and updating this repository with new concepts, exercises, and assignments as part of my **BridgeLabz company training**.
