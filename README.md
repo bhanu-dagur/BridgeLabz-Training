@@ -135,6 +135,32 @@ It also introduces **exception handling**, exception hierarchy, and different ty
 
 ---
 
+## 📅 Date: 27 December 2025
+### 📘 Topics Covered
+- **String problems**
+
+---
+
+## 📅 Date: 28 December 2025
+### 📘 Topics Covered
+- **String problems , Leetcode problem**
+
+---
+
+
+## 📅 Date: 29 December 2025
+### 📘 Topics Covered
+- **Scenerio based questions , Leetcode problem**
+
+---
+
+## 📅 Date: 30 December 2025
+### 📘 Topics Covered
+- **Scenerio based questions , Leetcode problem, OOPS**
+
+---
+
+
 ✅ **Status:** Completed  
 📌 **Topic:** C# Strings & Exceptions
 
