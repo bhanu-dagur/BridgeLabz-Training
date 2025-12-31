@@ -160,6 +160,13 @@ It also introduces **exception handling**, exception hierarchy, and different ty
 
 ---
 
+## 📅 Date: 31 December 2025
+### 📘 Topics Covered
+- **Scenerio based questions (Banking System Math operator,Invoice Generator for Freelancers)
+- leetcode problem, OOPS**
+
+---
+
 
 ✅ **Status:** Completed  
 📌 **Topic:** C# Strings & Exceptions
