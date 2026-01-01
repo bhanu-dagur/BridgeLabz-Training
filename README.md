@@ -162,10 +162,21 @@ It also introduces **exception handling**, exception hierarchy, and different ty
 
 ## 📅 Date: 31 December 2025
 ### 📘 Topics Covered
-- **Scenerio based questions (Banking System Math operator,Invoice Generator for Freelancers)
-- leetcode problem, OOPS**
+- **Scenerio based questions** (Banking System Math operator,Invoice Generator for Freelancers)
+- leetcode problem
+- OOPS
 
 ---
+
+## 📅 Date: 01 January 2025
+### 📘 Topics Covered
+- **Scenerio based questions** (Cafeteria App)
+- Oops (Class,Object and Constructors)
+- leetcode problem
+####  - Practical implementation of Oops(Class And Object) 
+
+---
+
 
 
 ✅ **Status:** Completed  
