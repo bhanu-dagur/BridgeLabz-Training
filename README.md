@@ -1,7 +1,7 @@
 # BridgeLabz Training Program
 
 ## 📌 Overview
-This repository documents my **daily learning progress and hands-on practice** during the **BridgeLabz Training Program**. The goal of this training is to build a strong foundation in **programming fundamentals, version control, and problem-solving skills** using **Git, Java, C#, and .NET**. All learning activities include both theory (documentation) and practical implementation through coding exercises.
+This repository documents my **daily learning progress and hands-on practice** during the **BridgeLabz Training Program**. The goal of this training is to build a strong  foundation in **programming fundamentals, version control, and problem-solving skills** using **Git, Java, C#, and .NET**. All learning activities include both theory (documentation) and practical implementation through coding exercises.
 
 ---
 
