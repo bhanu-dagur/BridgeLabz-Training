@@ -175,10 +175,15 @@ It also introduces **exception handling**, exception hierarchy, and different ty
 - leetcode problem
 ####  - Practical implementation of Oops(Class And Object) 
 
-
 ---
 
+## 📅 Date: 02 January 2025
+### 📘 Topics Covered
+- **Scenerio based questions** {Bus Route Distance Tracker & Festival Lucky Draw}
+- Oops (This,sealded,Static keywords & Is Operator)
+- leetcode problem
 
+---
 
 ✅ **Status:** Completed  
 📌 **Topic:** C# Strings & Exceptions
