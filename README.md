@@ -5,7 +5,7 @@ This repository documents my **daily learning progress and hands-on practice** d
 
 ---
 
-## 📘 Daily Progress Log
+## 📘 Daily Progress Log 
 
 ### 🗓️ 16 December 2025
 - Installed and configured **Git** on the local system
