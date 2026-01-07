@@ -1,83 +1,59 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Employee
 {
     internal class Employee
     {
-        private string employeeid { get; set; }
-        private string employeename { get; set; }
-        private string employeesalary { get; set; }
-        private long employeephonenumber { get; set; }
+        // Private Fields (Encapsulation)
+        private string employeeId;
+        private string employeeName;
+        private long employeePhoneNumber;
+        private string employeeAttendance;   // UC1
+        private double employeeDailyWage;    // UC2
 
-        private string employeeattendance { get; set; } // UC1 Employee Attendance Check
-
+        // Employee ID
         public string EmployeeId
         {
-            get
-            {
-                return employeeid;
-            }
-            set
-            {
-                employeeid = value;
-            }
+            get { return employeeId; }
+            set { employeeId = value; }
         }
 
+        // Employee Name
         public string EmployeeName
         {
-            get
-            {
-                return employeename;
-            }
-            set
-            {
-                employeename = value;
-            }
+            get { return employeeName; }
+            set { employeeName = value; }
         }
 
-        public string EmployeeSalary
-        {
-            get
-            {
-                return employeesalary;
-            }
-            set
-            {
-                employeesalary = value;
-            }
-        }
-
+        // Employee Phone Number
         public long EmployeePhoneNumber
         {
-            get
-            {
-                return employeephonenumber;
-            }
-            set
-            {
-                employeephonenumber = value;
-            }
+            get { return employeePhoneNumber; }
+            set { employeePhoneNumber = value; }
         }
 
+        // UC1: Employee Attendance
         public string EmployeeAttendance
         {
-            get
-            {
-                return employeeattendance;
-            }
-            set
-            {
-                employeeattendance = value;
-            }
+            get { return employeeAttendance; }
+            set { employeeAttendance = value; }
         }
 
-        public override string? ToString()
+        // UC2: Employee Daily Wage
+        public double EmployeeDailyWage
         {
-            return "Employee ID: " + employeeid + "\nEmployee Name: " + employeename + "\nEmployee Salary : " + employeesalary + "\nEmployee Phone Number : " + employeephonenumber + "\nEmployee Attendance : " + EmployeeAttendance;
+            get { return employeeDailyWage; }
+            set { employeeDailyWage = value; }
+        }
+
+        // Display Employee Details
+        public override string ToString()
+        {
+            return "Employee ID       : " + employeeId +
+                   "\nEmployee Name     : " + employeeName +
+                   "\nPhone Number      : " + employeePhoneNumber +
+                   "\nAttendance        : " + employeeAttendance +
+                   "\nDaily Wage        : " + employeeDailyWage;
         }
     }
 }
