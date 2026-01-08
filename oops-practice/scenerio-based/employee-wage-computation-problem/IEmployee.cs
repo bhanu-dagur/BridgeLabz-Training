@@ -4,19 +4,22 @@ namespace Employee
 {
     internal interface IEmployee
     {
-        // UC0 + UC3 : Add Employee (Full Time / Part Time)
+        // UC0 + UC3
         void AddEmployee();
 
-        // Display Employees (Full Time / Part Time)
-        void DisplayEmployee();
-
-        // UC1 : Employee Attendance Check
+        // UC1
         void AttendanceCheck();
 
-        // UC2 : Daily Wage
+        // UC2
         void EmployeeDailyWage();
 
-        // UC5 : Monthly Wage
+        // UC5
         void EmployeeMonthlyWage();
+
+        // UC6
+        void CalculateWageWithCondition();
+
+        // Display
+        void DisplayEmployees();
     }
 }

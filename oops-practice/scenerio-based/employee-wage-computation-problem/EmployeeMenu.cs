@@ -15,22 +15,23 @@ namespace Employee
                 Console.WriteLine("\n===== Employee Wage Computation Menu =====");
                 Console.WriteLine("1. Add Employee");
                 Console.WriteLine("2. Display Employees");
-                Console.WriteLine("3. Attendance Check");        // UC1
-                Console.WriteLine("4. Calculate Daily Wage");    // UC2
-                Console.WriteLine("5. Calculate Monthly Wage");  // UC5
-                Console.WriteLine("6. Exit");
+                Console.WriteLine("3. Attendance Check");          // UC1
+                Console.WriteLine("4. Calculate Daily Wage");      // UC2
+                Console.WriteLine("5. Calculate Monthly Wage");    // UC5
+                Console.WriteLine("6. Calculate Wage With Condition"); // UC6
+                Console.WriteLine("7. Exit");
 
-                Console.Write("Enter your choice: ");
+                Console.Write("Enter choice: ");
                 int choice = int.Parse(Console.ReadLine());
 
-                switch (choice)   // UC4 Using Switch Case
+                switch (choice)     // UC4: switch case usage
                 {
                     case 1:
                         _employeeChoice.AddEmployee();
                         break;
 
                     case 2:
-                        _employeeChoice.DisplayEmployee();
+                        _employeeChoice.DisplayEmployees();
                         break;
 
                     case 3:
@@ -46,11 +47,15 @@ namespace Employee
                         break;
 
                     case 6:
+                        _employeeChoice.CalculateWageWithCondition();
+                        break;
+
+                    case 7:
                         Console.WriteLine("Program exited successfully.");
                         return;
 
                     default:
-                        Console.WriteLine("Invalid choice! Please enter 1 to 6.");
+                        Console.WriteLine("Invalid choice! Please try again.");
                         break;
                 }
             }
