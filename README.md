@@ -185,9 +185,60 @@ It also introduces **exception handling**, exception hierarchy, and different ty
 
 ---
 
-✅ **Status:** Completed  
-📌 **Topic:** C# Strings & Exceptions
+## 📅 Date: 03 January 2025
+### 📘 Topics Covered
+- Solved Problems Based On Object Modeling,Class Diagram,Object Diagrams,Sequence Diagrams.
+- Inheritance,Single Level Inheritance,Multilevel Inheritance,Hierarchical Inheritance,Key Features of Inheritance,Method Overriding,Constructor Inheritance in C#,Polymorphism and Inheritance,Access Modifiers and Inheritance.
 
+  ---
+  
+## 📅 Date: 04 January 2025
+### 📘 Topics Covered
+- Solved Problem Based On Inheritance,Single Level Inheritance,Multilevel Inheritance,Hierarchical Inheritance,Hybrid Inheritance
+- Solved LeetCode Problem
+
+  ---
+
+## 📅 Date: 05 January 2025
+### 📘 Topics Covered
+- Solved Two Scenario-Based Questions on 1.Hospital Patient Management System 2.Vehicle Rental Application.
+- Encapsulation
+- Polymorphism
+
+---
+
+## 📅 Date: 06 January 2025
+### 📘 Topics Covered
+- Solved Two Scenario-Based Questions on 1.Design a Bird Sanctuary system using Inheritance and Polymorphism 2.Customer Service Call Log Manager
+- Interface and Abstract Class
+- Solved Problem Based On Encapsulation, Polymorphism, Interface and Abstract Class.
+
+---
+
+## 📅 Date: 07 January 2025
+### 📘 Topics Covered
+- Solved Problem Based On Encapsulation, Polymorphism, Interface and Abstract Class.
+- Solved One Scenario-Based Question on Employee Wage Computation Problem.
+ ***Introduction of Data Structures***
+- Key Features of Data Structures in C#
+- Solve Leetcode problem 
+
+---
+
+## 📅 Date: 08 January 2025
+### 📘 Topics Covered
+- Solved One Scenario-Based Question on Smart Home Automation System.
+
+***Types of Data Structures in C#***
+- Single Linked List
+- Double Linked List
+- Circular Linked List
+- Solved Problem Based On Single Linked List, Double Linked List and Circular Linked List.
+
+****Solve Leetcode Problem****
+- Reverse Linked list
+- Plaindrom Linked list
+- Delete a node in Linked list
 
 
 ✅ **Status:** Completed  
