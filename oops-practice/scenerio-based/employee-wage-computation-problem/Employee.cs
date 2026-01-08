@@ -4,67 +4,75 @@ namespace Employee
 {
     internal class Employee
     {
-        // Private Fields (Encapsulation)
-        private string employeeId;
-        private string employeeName;
-        private long employeePhoneNumber;
-        private string employeeAttendance;   // UC1
-        private double employeeDailyWage;    // UC2
-        private bool isPartTime = false;     // UC3
+        private string employeeid;
+        private string employeename;
+        private double employeedailywage;     // UC2 Daily Wage
+        private double employeemonthlywage;   // UC5 Monthly Wage
+        private long employeephonenumber;
+        private string employeeattendance;    // UC1 Attendance
+        private bool isparttime = false;       // UC3 Part-Time
 
         // Employee ID
         public string EmployeeId
         {
-            get { return employeeId; }
-            set { employeeId = value; }
+            get { return employeeid; }
+            set { employeeid = value; }
         }
 
         // Employee Name
         public string EmployeeName
         {
-            get { return employeeName; }
-            set { employeeName = value; }
+            get { return employeename; }
+            set { employeename = value; }
+        }
+
+        // Daily Wage
+        public double EmployeeDailyWage
+        {
+            get { return employeedailywage; }
+            set { employeedailywage = value; }
+        }
+
+        // Monthly Wage
+        public double EmployeeMonthlyWage
+        {
+            get { return employeemonthlywage; }
+            set { employeemonthlywage = value; }
         }
 
         // Phone Number
         public long EmployeePhoneNumber
         {
-            get { return employeePhoneNumber; }
-            set { employeePhoneNumber = value; }
+            get { return employeephonenumber; }
+            set { employeephonenumber = value; }
         }
 
-        // UC1: Attendance
+        // Attendance
         public string EmployeeAttendance
         {
-            get { return employeeAttendance; }
-            set { employeeAttendance = value; }
+            get { return employeeattendance; }
+            set { employeeattendance = value; }
         }
 
-        // UC2: Daily Wage
-        public double EmployeeDailyWage
-        {
-            get { return employeeDailyWage; }
-            set { employeeDailyWage = value; }
-        }
-
-        // UC3: Part-Time or Full-Time
+        // Part-Time / Full-Time
         public bool IsPartTime
         {
-            get { return isPartTime; }
-            set { isPartTime = value; }
+            get { return isparttime; }
+            set { isparttime = value; }
         }
 
         // Display Employee Details
         public override string ToString()
         {
-            string employeeType = isPartTime ? "PART TIME EMPLOYEE" : "FULL TIME EMPLOYEE";
+            string employeeType = isparttime ? "PART TIME EMPLOYEE" : "FULL TIME EMPLOYEE";
 
             return $"---- {employeeType} ----" +
-                   $"\nEmployee ID        : {employeeId}" +
-                   $"\nEmployee Name      : {employeeName}" +
-                   $"\nPhone Number       : {employeePhoneNumber}" +
-                   $"\nAttendance         : {employeeAttendance}" +
-                   $"\nDaily Wage         : {employeeDailyWage}";
+                   $"\nEmployee ID          : {employeeid}" +
+                   $"\nEmployee Name        : {employeename}" +
+                   $"\nDaily Wage           : {employeedailywage}" +
+                   $"\nMonthly Wage         : {employeemonthlywage}" +
+                   $"\nPhone Number         : {employeephonenumber}" +
+                   $"\nAttendance           : {employeeattendance}";
         }
     }
 }

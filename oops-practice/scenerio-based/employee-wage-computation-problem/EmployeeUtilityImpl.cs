@@ -7,9 +7,11 @@ namespace Employee
     {
         private List<Employee> employees = new List<Employee>();
         private Random attendanceCheck = new Random();
-        private double wagePerHour = 20;
 
-        // UC0 + UC3: Add Employee (Full Time / Part Time)
+        private double wagePerHour = 20;
+        private int workingDaysPerMonth = 20;
+
+        // UC0 + UC3 : Add Employee (Full Time / Part Time)
         public void AddEmployee()
         {
             Employee employee = new Employee();
@@ -20,9 +22,7 @@ namespace Employee
             int choiceForTime = int.Parse(Console.ReadLine());
 
             if (choiceForTime == 2)
-            {
                 employee.IsPartTime = true;
-            }
 
             Console.Write("Enter Employee ID: ");
             employee.EmployeeId = Console.ReadLine();
@@ -37,30 +37,27 @@ namespace Employee
             Console.WriteLine("Employee Added Successfully!");
         }
 
-        // UC1: Employee Attendance Check
+        // UC1 : Employee Attendance Check
         public void AttendanceCheck()
         {
-            int i = 1;
-
             foreach (Employee employee in employees)
             {
-                Console.WriteLine($"\nEmployee {i} ({employee.EmployeeName}) Attendance");
+                Console.WriteLine($"\nAttendance for {employee.EmployeeName}");
                 long attendanceOtp = attendanceCheck.Next(10000, 99999);
                 Console.WriteLine($"Enter the number displayed: {attendanceOtp}");
 
-                long employeeInput = long.Parse(Console.ReadLine());
+                long input = long.Parse(Console.ReadLine());
 
-                if (attendanceOtp == employeeInput)
+                if (attendanceOtp == input)
                     employee.EmployeeAttendance = "Present";
                 else
                     employee.EmployeeAttendance = "Absent";
 
                 Console.WriteLine($"{employee.EmployeeName} is {employee.EmployeeAttendance}");
-                i++;
             }
         }
 
-        // UC2: Calculate Daily Employee Wage
+        // UC2 : Daily Wage Calculation
         public void EmployeeDailyWage()
         {
             foreach (Employee employee in employees)
@@ -68,7 +65,7 @@ namespace Employee
                 if (employee.EmployeeAttendance != "Present")
                 {
                     employee.EmployeeDailyWage = 0;
-                    Console.WriteLine($"{employee.EmployeeName} is absent. Wage = 0");
+                    Console.WriteLine($"{employee.EmployeeName} is absent. Daily wage = 0");
                     continue;
                 }
 
@@ -82,27 +79,38 @@ namespace Employee
                 }
 
                 employee.EmployeeDailyWage = wagePerHour * hours;
-                Console.WriteLine($"Daily Wage of {employee.EmployeeName} = {employee.EmployeeDailyWage}");
+                Console.WriteLine($"Daily Wage = {employee.EmployeeDailyWage}");
             }
         }
 
-        // Display Employees (Full Time / Part Time)
+        // UC5 : Monthly Wage Calculation
+        public void EmployeeMonthlyWage()
+        {
+            foreach (Employee employee in employees)
+            {
+                employee.EmployeeMonthlyWage =
+                    employee.EmployeeDailyWage * workingDaysPerMonth;
+
+                Console.WriteLine($"{employee.EmployeeName} Monthly Wage = {employee.EmployeeMonthlyWage}");
+            }
+        }
+
+        // Display Full Time / Part Time Employees
         public void DisplayEmployee()
         {
             Console.WriteLine("1. Display Full Time Employees");
             Console.WriteLine("2. Display Part Time Employees");
             Console.Write("Enter choice: ");
-
-            int choiceForTime = int.Parse(Console.ReadLine());
+            int choice = int.Parse(Console.ReadLine());
 
             foreach (Employee employee in employees)
             {
-                if (choiceForTime == 1 && !employee.IsPartTime)
+                if (choice == 1 && !employee.IsPartTime)
                 {
                     Console.WriteLine(employee);
                     Console.WriteLine("-----------");
                 }
-                else if (choiceForTime == 2 && employee.IsPartTime)
+                else if (choice == 2 && employee.IsPartTime)
                 {
                     Console.WriteLine(employee);
                     Console.WriteLine("-----------");

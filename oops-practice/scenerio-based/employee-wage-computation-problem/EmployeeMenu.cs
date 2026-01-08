@@ -14,15 +14,16 @@ namespace Employee
             {
                 Console.WriteLine("\n===== Employee Wage Computation Menu =====");
                 Console.WriteLine("1. Add Employee");
-                Console.WriteLine("2. Display Employee");
-                Console.WriteLine("3. Attendance Check");   // UC1
-                Console.WriteLine("4. Calculate Wage");     // UC2
-                Console.WriteLine("5. Exit");
-                Console.Write("Enter your choice: ");
+                Console.WriteLine("2. Display Employees");
+                Console.WriteLine("3. Attendance Check");        // UC1
+                Console.WriteLine("4. Calculate Daily Wage");    // UC2
+                Console.WriteLine("5. Calculate Monthly Wage");  // UC5
+                Console.WriteLine("6. Exit");
 
+                Console.Write("Enter your choice: ");
                 int choice = int.Parse(Console.ReadLine());
 
-                switch (choice)  //UC4 Solving using switch Case
+                switch (choice)   // UC4 Using Switch Case
                 {
                     case 1:
                         _employeeChoice.AddEmployee();
@@ -41,11 +42,15 @@ namespace Employee
                         break;
 
                     case 5:
+                        _employeeChoice.EmployeeMonthlyWage();
+                        break;
+
+                    case 6:
                         Console.WriteLine("Program exited successfully.");
                         return;
 
                     default:
-                        Console.WriteLine("Invalid choice! Please enter 1 to 5.");
+                        Console.WriteLine("Invalid choice! Please enter 1 to 6.");
                         break;
                 }
             }
