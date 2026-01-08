@@ -18,8 +18,8 @@ namespace Employee
                 Console.WriteLine("3. Attendance Check");   // UC1
                 Console.WriteLine("4. Calculate Wage");     // UC2
                 Console.WriteLine("5. Exit");
-
                 Console.Write("Enter your choice: ");
+
                 int choice = int.Parse(Console.ReadLine());
 
                 switch (choice)
@@ -45,7 +45,7 @@ namespace Employee
                         return;
 
                     default:
-                        Console.WriteLine("Invalid choice! Try again.");
+                        Console.WriteLine("Invalid choice! Please enter 1 to 5.");
                         break;
                 }
             }
