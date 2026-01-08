@@ -60,9 +60,9 @@ class LibraryAndBooks
     static void Main(string[] args)
     {
         // Creating Book objects(independent)
-        Book b1 = new Book("C# Programming","Bhanu ");
-        Book b2 = new Book("Java Basics","devansh");
-        Book b3 = new Book("Python","krishna");
+        Book b1 = new Book("C# Programming","Devansh");
+        Book b2 = new Book("Java Basics","James");
+        Book b3 = new Book("Python Guide","Guido");
 
         // Creating Library object
         Library lib1 = new Library("Central Library");
