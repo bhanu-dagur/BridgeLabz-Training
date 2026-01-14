@@ -16,6 +16,15 @@ namespace AddressBookSystem
             AddressBook contact = new AddressBook();
             Console.WriteLine("Enter First Name");
             contact.firstName = Console.ReadLine();
+
+            for (int i = 0; i < addressBook.Length; i++)  // UC-6 Each Contact should be unique in address book
+            {
+                if (addressBook[i] != null && addressBook[i].firstName.Equals(contact.firstName, StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("CONTACT ALREADY EXISTS");
+                    return;
+                }
+            }
             Console.WriteLine("Enter Last Name");
             contact.lastName = Console.ReadLine();
             Console.WriteLine("Enter Address");
@@ -34,6 +43,7 @@ namespace AddressBookSystem
 
             for(int i = 0; i < addressBook.Length; i++)
             {
+
                 if(addressBook[i] == null)
                 {
                     addressBook[i] = contact;
