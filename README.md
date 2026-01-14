@@ -244,37 +244,49 @@ It also introduces **exception handling**, exception hierarchy, and different ty
 
 ## 📅 Date: 09 January 2025
 ### 📘 Topic
--Solved One Scenario-Based Questions on OOPS Concept FitTrack – Fitness Tracker
--Solved One Scenario-Based Questions on DSA Concept ATM Dispenser Logic
--Stack
--Queue
--HashMap and Hashing Function
--Solved Problem Based On Stack,Queue,HashMap and Hasing Function.
+- Solved One Scenario-Based Questions on OOPS Concept FitTrack – Fitness Tracker
+- Solved One Scenario-Based Questions on DSA Concept ATM Dispenser Logic
+- Stack
+- Queue
+- HashMap and Hashing Function
+- Solved Problem Based On Stack,Queue,HashMap and Hasing Function.
 
 ---
 
 ## 📅 Date: 11 January 2025
 ### 📘 Topic
--Bubble Sort,Insertion Sort,Merge Sort, and Quick Sort
--Solved Problem Based On Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Selection Sort,Heap Sort and Counting Sort.
+- Bubble Sort,Insertion Sort,Merge Sort, and Quick Sort
+- Solved Problem Based On Bubble Sort,Insertion Sort,Merge Sort,Quick Sort,Selection Sort,Heap Sort and Counting Sort.
 
 ---
 
 ## 📅 Date: 12 January 2025
 ### 📘 Topic
--Solved One Scenario-Based Questions on OOPS Concept Metal Factory Pipe Cutting
--StringBuilder,StringBuffer
--InputStreamReader,FileReader
--Linear Search and Binary Search
--Solved Questions Based On StringBuilder,StringBuffer.
+- Solved One Scenario-Based Questions on OOPS Concept Metal Factory Pipe Cutting
+- StringBuilder,StringBuffer
+- InputStreamReader,FileReader
+- Linear Search and Binary Search
+- Solved Questions Based On StringBuilder,StringBuffer.
 
 ---
 
 ## 📅 Date: 13 January 2025
 ### 📘 Topic
--Solved the LoanBuddy – Loan Approval Automation
--Solved Two Scenario-Based Questions on 1.CinemaTime – Movie Schedule Manager 2.BookBuddy – Digital Bookshelf App
--Solved Questions Based On InputStreamReader,FileReader,Linear Search and Binary Search.
+- Solved the LoanBuddy – Loan Approval Automation
+- Solved Two Scenario-Based Questions on 1.CinemaTime – Movie Schedule Manager 2.BookBuddy – Digital Bookshelf App
+- Solved Questions Based On InputStreamReader,FileReader,Linear Search and Binary Search.
+
+---
+
+## 📅 Date: 14 January 2025
+### 📘 Topic
+- Analysis the algorithim complexity
+- Avoid extra loops & recursion
+- Use sorting & searching smartly and measure performance
+#### Solve Leetcode problem**
+- Search in sorted array
+- Find first and last last position in sorted array
+#### Solve senerio based problem - Address Book System
 
 ---
 
