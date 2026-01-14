@@ -59,6 +59,10 @@ namespace AddressBookSystem
             set { Email = value; }
             get { return Email; }
         }
+        public override string ToString()
+        {
+              return FirstName + " " + LastName + " " + Address + " " + City + " " + State + " " + Zip + " " + PhoneNumber + " " + Email;
+        }
 
     }
 }
