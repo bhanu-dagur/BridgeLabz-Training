@@ -47,18 +47,21 @@ namespace AddressBookSystem
         {
             
 
-                Console.WriteLine("ENTER THE NAME OF THE CONTACT YOU WANT TO EDIT");
-                string name= Console.ReadLine();
+            Console.WriteLine("ENTER THE NAME OF THE CONTACT YOU WANT TO EDIT");
+            string name= Console.ReadLine();
 
-                Console.WriteLine("ENTER THE FIELD YOU WANT TO EDIT IN PASCAL CASE");
-                string field = Console.ReadLine();
+            Console.WriteLine("ENTER THE FIELD YOU WANT TO EDIT IN PASCAL CASE");
+            Console.WriteLine("FirstName, LastName, Address, City, State, Zip, PhoneNumber, Email");
 
+            string field = Console.ReadLine();
+            bool found = false;
             for (int i = 0; i < addressBook.Length; i++)
             {
                 if (addressBook[i] != null)
                 {
                     if (addressBook[i].firstName == name)
                     {
+                        found = true;
                         if (field == "FirstName")
                         {
                             Console.WriteLine("Enter First Name");
@@ -106,16 +109,55 @@ namespace AddressBookSystem
                     }
                 }
             }
+            if (found == false)
+            {
+                Console.WriteLine("CONTACT NOT FOUND");
+            }
             
+        }
+        public void DeleteContact()// UC-4 Delete Persons details
+        { 
+            bool found = false;
+            Console.WriteLine("ENTER THE NAME OF THE CONTACT YOU WANT TO DELETE");
+            string name = Console.ReadLine();
+            for (int i = 0; i < addressBook.Length; i++)
+            {
+                if (addressBook[i] != null)
+                {
+                    if (addressBook[i].firstName == name)
+                    {
+                        found = true;
+                        
+                        for (int j = i; j < addressBook.Length - 1; j++)
+                        {
+                            addressBook[j] = addressBook[j + 1];
+                        }
+                        addressBook[addressBook.Length - 1] = null;
+                        Console.WriteLine("Contact Deleted Successfully");
+                        break;
+                    }
+                }
+            }
+            if(found == false)
+            {
+                Console.WriteLine("CONTACT NOT FOUND");
+            }
         }
         public void DisplayContact() 
         {
+            bool isEmpty = false;
+
             for(int i = 0; i < addressBook.Length; i++)
             {
                 if(addressBook[i] != null)
                 {
+                    isEmpty = true;
                     Console.WriteLine(addressBook[i]);
                 }
+            }
+            if(!isEmpty)
+            {
+                Console.WriteLine("ADDRESS BOOK IS EMPTY");
             }
         }
     }

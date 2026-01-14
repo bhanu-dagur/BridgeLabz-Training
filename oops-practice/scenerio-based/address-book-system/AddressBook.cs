@@ -61,7 +61,8 @@ namespace AddressBookSystem
         }
         public override string ToString()
         {
-              return FirstName + " " + LastName + " " + Address + " " + City + " " + State + " " + Zip + " " + PhoneNumber + " " + Email;
+              return "FirstName: "+FirstName + ",  LastName: " + LastName + ",  Address: " + Address + ",  City: " + City + 
+                ",  State: " + State + ",  Zip: " + Zip + ",  PhoneNumber: " + PhoneNumber + ",  Email: " + Email;
         }
 
     }

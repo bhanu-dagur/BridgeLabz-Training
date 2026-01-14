@@ -8,8 +8,9 @@ namespace AddressBookSystem
 {
     internal interface IAddressBook
     {
-        void AddContact();
+        void AddContact(); //UC-2 Add Persons details
         void DisplayContact();
-        void EditContact();
+        void EditContact(); //UC-3 Edit Persons details
+        void DeleteContact(); //UC-4 Delete Persons details
     }
 }
