@@ -8,10 +8,9 @@ namespace AddressBookSystem
 {
     internal class AddressBookUtility : IAddressBook
     {
-        private AddressBook[] addressBook = new AddressBook[10];
+        private AddressBook[] addressBook = new AddressBook[10];  // UC-5 store multiple contacts
+        
 
-        
-        
         public void AddContact() // UC-2 Add Persons details
         {
             AddressBook contact = new AddressBook();
