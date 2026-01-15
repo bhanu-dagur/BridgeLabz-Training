@@ -152,6 +152,27 @@ namespace AddressBookSystem
                 Console.WriteLine("CONTACT NOT FOUND");
             }
         }
+        public void SearchContact(){ // UC -8 Search Person by City or State
+            Console.WriteLine("EITHER ENTER THE CITY OR STATE YOU WANT TO SEARCH");
+            string search = Console.ReadLine();
+
+            bool found = false;
+            for (int i = 0; i < addressBook.Length; i++)
+            {
+                if (addressBook[i] != null)
+                {
+                    if (addressBook[i].city == search || addressBook[i].state == search)
+                    {
+                        found = true;
+                        Console.WriteLine(addressBook[i]);
+                    }
+                }
+            }
+            if (found == false)
+            {
+                Console.WriteLine("CONTACT NOT FOUND");
+            }
+        }
         public void DisplayContact() 
         {
             bool isEmpty = false;

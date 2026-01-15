@@ -18,7 +18,8 @@ namespace AddressBookSystem
                 Console.WriteLine("PRESS 2. FOR DISPLAY ALL CONTACT DETAILS");
                 Console.WriteLine("PRESS 3. FOR EDIT CONTACT DETAILS BY NAME"); // UC-3 Edit Persons details
                 Console.WriteLine("PRESS 4. FOR DELETE CONTACT DETAILS BY NAME"); // UC-4 Delete Persons details
-                Console.WriteLine("PRESS 5. FOR EXIT");
+                Console.WriteLine("PRESS 5. FOR SEARCH PERSON BY CITY OR STATE"); // UC-8 Search person by city or state
+                Console.WriteLine("PRESS 6. FOR EXIT");
                 int choose = Convert.ToInt32(Console.ReadLine());
 
                 switch (choose)
@@ -36,6 +37,9 @@ namespace AddressBookSystem
                         addressBookUtility.DeleteContact();
                         break;
                     case 5:
+                        addressBookUtility.SearchContact();
+                        break;
+                    case 6:
                         Console.WriteLine("THANKS FOR USING OUR APPLICATION");
                         return;
                     default:

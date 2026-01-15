@@ -12,5 +12,6 @@ namespace AddressBookSystem
         void DisplayContact();
         void EditContact(); //UC-3 Edit Persons details
         void DeleteContact(); //UC-4 Delete Persons details
+        void SearchContact(); //UC-5 Search Persons by city or state
     }
 }
