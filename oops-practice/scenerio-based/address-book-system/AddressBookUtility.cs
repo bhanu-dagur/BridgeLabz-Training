@@ -19,7 +19,7 @@ namespace AddressBookSystem
 
             for (int i = 0; i < addressBook.Length; i++)  // UC-6 Each Contact should be unique in address book
             {
-                if (addressBook[i] != null && addressBook[i].firstName.Equals(contact.firstName, StringComparison.OrdinalIgnoreCase))
+                if (addressBook[i] != null && addressBook[i].firstName.Equals(contact.firstName, StringComparison.OrdinalIgnoreCase))// UC-7 Check for duplicate contact
                 {
                     Console.WriteLine("CONTACT ALREADY EXISTS");
                     return;
