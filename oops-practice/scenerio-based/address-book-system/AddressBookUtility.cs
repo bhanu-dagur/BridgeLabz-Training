@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,8 +9,8 @@ namespace AddressBookSystem
 {
     internal class AddressBookUtility : IAddressBook
     {
-        private AddressBook[] addressBook = new AddressBook[10];  // UC-5 store multiple contacts
-        
+        private AddressBook[] addressBook = new AddressBook[10];// UC-5 store multiple contacts
+        //private AddressBook[] addressBook2 = new AddressBook[10];
 
         public void AddContact() // UC-2 Add Persons details
         {
@@ -157,14 +158,14 @@ namespace AddressBookSystem
             string search = Console.ReadLine();
 
             bool found = false;
-            for (int i = 0; i < addressBook.Length; i++)
+            for (int i = 0; i < addressBook.Length; i++) 
             {
                 if (addressBook[i] != null)
                 {
                     if (addressBook[i].city == search || addressBook[i].state == search)
                     {
                         found = true;
-                        Console.WriteLine(addressBook[i]);
+                        Console.WriteLine(addressBook[i]);  // UC-9 View Person by City or State
                     }
                 }
             }
