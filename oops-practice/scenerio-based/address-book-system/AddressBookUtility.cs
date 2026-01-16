@@ -10,7 +10,6 @@ namespace AddressBookSystem
     internal class AddressBookUtility : IAddressBook
     {
         private AddressBook[] addressBook = new AddressBook[10];// UC-5 store multiple contacts
-        //private AddressBook[] addressBook2 = new AddressBook[10];
 
         public void AddContact() // UC-2 Add Persons details
         {
@@ -178,6 +177,28 @@ namespace AddressBookSystem
             else
             {
                 Console.WriteLine("NUMBER OF CONTACTS FOUND: " + count);
+            }
+        }
+        public void SortPersonByName() // UC -11 Sort Person By Name
+        {
+            for(int i = 0; i < addressBook.Length - 1; i++)
+            {
+                for(int j = i + 1; j < addressBook.Length; j++)
+                {
+                    //if(addressBook[i].firstName.CompareTo(addressBook[j].firstName) > 0)
+                    //{
+                    //    AddressBook temp = addressBook[i];
+                    //    addressBook[i] = addressBook[j];
+                    //    addressBook[j] = temp;
+                    //}
+                    if (string.Compare(addressBook[i].firstName+" " + addressBook[i].lastName, 
+                        addressBook[j].firstName+" " + addressBook[j].lastName, StringComparison.OrdinalIgnoreCase) > 0)
+                    {
+                        AddressBook temp = addressBook[i];
+                        addressBook[j] = addressBook[i];
+                        addressBook[i] = temp;
+                    }
+                }
             }
         }
         public void DisplayContact() 
