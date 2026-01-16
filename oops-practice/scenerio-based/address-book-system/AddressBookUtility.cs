@@ -158,6 +158,7 @@ namespace AddressBookSystem
             string search = Console.ReadLine();
 
             bool found = false;
+            int count = 0; // UC-10 Count number of contacts
             for (int i = 0; i < addressBook.Length; i++) 
             {
                 if (addressBook[i] != null)
@@ -166,12 +167,17 @@ namespace AddressBookSystem
                     {
                         found = true;
                         Console.WriteLine(addressBook[i]);  // UC-9 View Person by City or State
+                        count++;
                     }
                 }
             }
             if (found == false)
             {
                 Console.WriteLine("CONTACT NOT FOUND");
+            }
+            else
+            {
+                Console.WriteLine("NUMBER OF CONTACTS FOUND: " + count);
             }
         }
         public void DisplayContact() 
