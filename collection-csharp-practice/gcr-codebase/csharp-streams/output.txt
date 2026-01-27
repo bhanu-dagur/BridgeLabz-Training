@@ -1,0 +1,4 @@
+﻿file handling - read and write a text file 
+
+problem statement: write a c# program that reads the contents of a text file and writes it into a new file. if the source file does not exist, display an appropriate message. 
+requirements: use filestream for reading and writing. handle ioexception properly. ensure that the destination file is created if it does not exist.
