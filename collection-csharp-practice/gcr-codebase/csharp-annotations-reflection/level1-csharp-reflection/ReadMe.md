@@ -18,11 +18,12 @@ Normal C# programs are static in nature.
 Everything (class name, method name, object creation) is decided at compile time.
 
 Example:
-```csharp
+
 Student s = new Student();
+
 s.Display();
 
-This approach works well for small applications but fails in modern systems that require:
+## This approach works well for small applications but fails in modern systems that require:
 
 Dynamic behavior
 
@@ -36,6 +37,7 @@ Reflection was introduced to solve these problems by allowing runtime inspection
 and execution of code.
 
 -----
+## Reflection flow chart
 
 Class / Object
      ↓
@@ -62,13 +64,16 @@ Activator        |           Creates objects dynamically
 --------
 
 Q: Why is Reflection slower than normal code?
-Because it bypasses compile-time checks and operates on metadata at runtime.
+
+-Because it bypasses compile-time checks and operates on metadata at runtime.
 
 Q: Can Reflection access private members?
-Yes, by using appropriate BindingFlags.
+
+-Yes, by using appropriate BindingFlags.
 
 Q: Where is Reflection used in real-world applications?
-Dependency Injection, Logging, Serialization, Frameworks, and T
+
+-Dependency Injection, Logging, Serialization, Frameworks, and T
 
 --------------
 
