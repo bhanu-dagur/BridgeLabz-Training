@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "collection-csharp-practice", "collection-csharp-practice", "{9E5CE47C-0DD1-5B62-1EDC-00CE527D7EC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scenario-based", "scenario-based", "{FBC28A40-2318-AA89-227D-C60DF14817B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventTracker", "collection-csharp-practice\scenario-based\EventTracker\EventTracker.csproj", "{54486316-8E43-9A7B-FFA2-88258A0C6103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheckPro", "collection-csharp-practice\scenario-based\HealthCheckPro\HealthCheckPro.csproj", "{3F70B7D6-06A3-F9D0-A40E-D4DA0EE05B78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54486316-8E43-9A7B-FFA2-88258A0C6103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54486316-8E43-9A7B-FFA2-88258A0C6103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54486316-8E43-9A7B-FFA2-88258A0C6103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54486316-8E43-9A7B-FFA2-88258A0C6103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F70B7D6-06A3-F9D0-A40E-D4DA0EE05B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F70B7D6-06A3-F9D0-A40E-D4DA0EE05B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F70B7D6-06A3-F9D0-A40E-D4DA0EE05B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F70B7D6-06A3-F9D0-A40E-D4DA0EE05B78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FBC28A40-2318-AA89-227D-C60DF14817B6} = {9E5CE47C-0DD1-5B62-1EDC-00CE527D7EC2}
+		{54486316-8E43-9A7B-FFA2-88258A0C6103} = {FBC28A40-2318-AA89-227D-C60DF14817B6}
+		{3F70B7D6-06A3-F9D0-A40E-D4DA0EE05B78} = {FBC28A40-2318-AA89-227D-C60DF14817B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1E44AE4-64BF-4D89-9A97-BF418CB382D3}
+	EndGlobalSection
+EndGlobal
