@@ -1,18 +1,26 @@
-using System;
 using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
 
-class StudentJSON
+class Student
+{
+    public string name { get; set; }
+    public int age { get; set; }
+    public List<string> subjects { get; set; }
+}
+
+class StudentJson
 {
     static void Main()
     {
-        var student = new
+        Student s = new Student
         {
-            name = "Bhanu",
+            name = "Rohit",
             age = 22,
-            subjects = new[] { "Maths", "Science", "Computer" }
+            subjects = new List<string> { "Maths", "Physics", "CS" }
         };
 
-        string json = JsonConvert.SerializeObject(student, Formatting.Indented);
+        string json = JsonConvert.SerializeObject(s, Formatting.Indented);
         Console.WriteLine(json);
     }
 }
