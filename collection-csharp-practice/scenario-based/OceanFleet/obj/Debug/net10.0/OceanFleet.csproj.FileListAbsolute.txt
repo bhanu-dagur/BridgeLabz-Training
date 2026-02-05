@@ -1,0 +1,14 @@
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\bin\Debug\net10.0\OceanFleet.exe
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\bin\Debug\net10.0\OceanFleet.deps.json
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\bin\Debug\net10.0\OceanFleet.runtimeconfig.json
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\bin\Debug\net10.0\OceanFleet.dll
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\bin\Debug\net10.0\OceanFleet.pdb
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\obj\Debug\net10.0\OceanFleet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\obj\Debug\net10.0\OceanFleet.AssemblyInfoInputs.cache
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\obj\Debug\net10.0\OceanFleet.AssemblyInfo.cs
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\obj\Debug\net10.0\OceanFleet.csproj.CoreCompileInputs.cache
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\obj\Debug\net10.0\OceanFleet.dll
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\obj\Debug\net10.0\refint\OceanFleet.dll
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\obj\Debug\net10.0\OceanFleet.pdb
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\obj\Debug\net10.0\OceanFleet.genruntimeconfig.cache
+C:\Users\dell\OneDrive\Desktop\dsa-csharp\Scenerio-based\OceanFleet\obj\Debug\net10.0\ref\OceanFleet.dll
