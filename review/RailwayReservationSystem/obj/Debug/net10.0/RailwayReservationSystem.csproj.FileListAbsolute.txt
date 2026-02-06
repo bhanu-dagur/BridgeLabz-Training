@@ -1,0 +1,14 @@
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\bin\Debug\net10.0\RailwayReservationSystem.exe
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\bin\Debug\net10.0\RailwayReservationSystem.deps.json
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\bin\Debug\net10.0\RailwayReservationSystem.runtimeconfig.json
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\bin\Debug\net10.0\RailwayReservationSystem.dll
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\bin\Debug\net10.0\RailwayReservationSystem.pdb
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\obj\Debug\net10.0\RailwayReservationSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\obj\Debug\net10.0\RailwayReservationSystem.AssemblyInfoInputs.cache
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\obj\Debug\net10.0\RailwayReservationSystem.AssemblyInfo.cs
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\obj\Debug\net10.0\RailwayReservationSystem.csproj.CoreCompileInputs.cache
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\obj\Debug\net10.0\RailwayReservationSystem.dll
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\obj\Debug\net10.0\refint\RailwayReservationSystem.dll
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\obj\Debug\net10.0\RailwayReservationSystem.pdb
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\obj\Debug\net10.0\RailwayReservationSystem.genruntimeconfig.cache
+C:\Users\dell\OneDrive\Desktop\review\RailwayReservationSystem\obj\Debug\net10.0\ref\RailwayReservationSystem.dll
