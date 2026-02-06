@@ -291,6 +291,215 @@ It also introduces **exception handling**, exception hierarchy, and different ty
 ---
 
 
+# 🚀 Scenario-Based Problem Solving using C#, DSA & OOPS
+
+This repository contains a collection of **scenario-based projects and problem-solving exercises** implemented using **Core C#, Data Structures & Algorithms (DSA), and Object-Oriented Programming (OOPS)** concepts.  
+The goal of this repository is to strengthen **real-world problem solving**, **logical thinking**, and **clean code practices**.
+
+---
+
+## 📅 Learning Timeline & Topics Covered
+
+### 📅 15 January 2026
+- Continued and completed **Address Book Project**
+  - Implemented all Use Cases (UC)
+- Scenario-Based Problem:
+  - **BrowserBuddy – Tab History Manager**
+    - DSA Used: **Doubly Linked List + Stack**
+
+---
+
+### 📅 16 January 2026
+- Scenario-Based Problems:
+  - **Traffic Manager**
+    - DSA Used: **Circular Linked List**
+  - **Book Shelf Management**
+    - DSA Used: **Linked List + HashMap**
+- Concepts Applied:
+  - DSA
+  - OOPS
+  - Core C#
+
+---
+
+### 📅 17 January 2026
+- Scenario-Based Problems:
+  - **FlashDealz – Product Sorting by Discount**
+    - Algorithm: **Quick Sort**
+  - **FitnessTracker – Daily Step Count Ranking**
+    - Algorithm: **Bubble Sort**
+
+---
+
+### 📅 19 January 2026
+- Scenario-Based Problems:
+  - **ParcelTracker – Delivery Chain Management**
+    - DSA Used: **Singly Linked List**
+  - **ExamProctor – Online Exam Review System**
+    - DSA Used: **Stack + HashMap**
+- Completed:
+  - **C# Generics**
+
+---
+
+### 📅 20 January 2026
+- Practice:
+  - Generics-based problems
+- Scenario-Based Problems:
+  - **Sorting Aadhar Numbers**
+    - Algorithm: **Radix Sort**
+  - **Password Cracker Simulator**
+    - Technique: **Backtracking**
+- Collections Framework:
+  - Introduction & Overview
+  - Collection Hierarchy
+  - List Interface and Implementations
+
+---
+
+### 📅 21 January 2026
+- Scenario-Based Problems:
+  - **EduResults – Rank Sheet Generator**
+    - Algorithm: **Merge Sort**
+  - **SmartCheckout – Supermarket Billing Queue**
+    - DSA Used: **Queue + HashMap**
+- Topics Covered:
+  - Set Interface
+  - Queue and Deque Interfaces
+  - Map Interface and Implementations
+  - Comparison of Implementations
+  - Real-World Use Cases & Best Practices
+
+---
+
+### 📅 22 January 2026
+- Scenario-Based Problem:
+  - **AmbulanceRoute – Emergency Patient Navigation**
+    - DSA Used: **Circular Linked List**
+- C# I/O Streams:
+  - Types of Streams
+  - File Streams
+  - Object Streams
+  - ByteArray Streams
+  - Buffered Streams
+  - Reader & Writer
+  - Key Considerations
+
+---
+
+### 📅 23 January 2026
+- Exceptions Handling:
+  - Types of Exceptions
+  - Checked & Unchecked Exceptions
+  - Custom Exceptions
+  - try-catch
+  - try-catch-finally
+  - try-with-resources
+  - throw & throws
+  - Creating Custom Exceptions
+
+---
+
+### 📅 26 January 2026
+- Regular Expressions (Regex):
+  - Metacharacters & Quantifiers
+  - Common Patterns:
+    - Email Validation
+    - Password Strength
+    - Phone Number Format
+- C# Regex API:
+  - Pattern
+  - Matcher
+  - Methods: find(), matches(), replaceAll()
+- Introduction to **NUnit Framework**
+  - NUnit Annotations
+  - Writing Test Cases
+  - Assertions
+
+---
+
+### 📅 27 January 2026
+- Annotations:
+  - Built-in Annotations
+  - Custom Annotations
+  - Advanced Custom Annotations
+  - Real-World Use Cases
+- Reflection:
+  - Understanding Reflection
+  - Using Reflection in .NET
+  - Relationship between Annotations and Reflection
+
+---
+
+### 📅 28 January 2026
+- CSV Handling:
+  - Reading CSV Files
+  - Writing CSV Files
+  - Parsing CSV Data
+  - Data Validation
+
+---
+
+### 📅 29 January 2026
+- JSON Handling:
+  - Reading JSON Data
+  - Writing JSON Data
+  - Parsing JSON Data
+  - JSON Schema Validation
+
+---
+
+### 📅 30 January 2026
+- Scenario-Based Problem:
+  - **Lexical Twist**
+
+---
+
+### 📅 31 January 2026
+- Scenario-Based Problem:
+  - **Future Logistics**
+
+---
+
+## 🧠 Key Skills Gained
+
+- Strong understanding of **Data Structures**
+- Applying **DSA to real-world scenarios**
+- Writing **clean, modular, and reusable C# code**
+- Practical use of **OOPS principles**
+- Efficient **sorting & searching algorithms**
+- Hands-on experience with:
+  - Collections Framework
+  - File Handling (CSV, JSON)
+  - Regex
+  - Exception Handling
+  - Unit Testing (NUnit)
+  - Reflection & Annotations
+
+---
+
+## 🛠 Tech Stack
+
+- **Language:** C#
+- **Paradigm:** Object-Oriented Programming (OOPS)
+- **DSA Concepts:** Linked List, Stack, Queue, HashMap, Sorting Algorithms
+- **Frameworks & Tools:** .NET, NUnit
+- **Data Handling:** CSV, JSON
+- **Testing:** Unit Testing with NUnit
+
+---
+
+## 🎯 Purpose of This Repository
+
+This repository serves as:
+- A **learning journal**
+- A **practice archive for interviews**
+- A reference for **scenario-based problem solving**
+- A demonstration of **DSA + OOPS integration in C#**
+
+---
+
+⭐ *Feel free to explore, learn, and improve!*  
 
 
 ✅ **Status:** Completed  
