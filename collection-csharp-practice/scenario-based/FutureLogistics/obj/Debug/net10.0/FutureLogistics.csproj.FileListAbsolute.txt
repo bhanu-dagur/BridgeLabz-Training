@@ -1,0 +1,14 @@
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\bin\Debug\net10.0\FutureLogistics.exe
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\bin\Debug\net10.0\FutureLogistics.deps.json
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\bin\Debug\net10.0\FutureLogistics.runtimeconfig.json
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\bin\Debug\net10.0\FutureLogistics.dll
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\bin\Debug\net10.0\FutureLogistics.pdb
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\obj\Debug\net10.0\FutureLogistics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\obj\Debug\net10.0\FutureLogistics.AssemblyInfoInputs.cache
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\obj\Debug\net10.0\FutureLogistics.AssemblyInfo.cs
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\obj\Debug\net10.0\FutureLogistics.csproj.CoreCompileInputs.cache
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\obj\Debug\net10.0\FutureLogistics.dll
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\obj\Debug\net10.0\refint\FutureLogistics.dll
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\obj\Debug\net10.0\FutureLogistics.pdb
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\obj\Debug\net10.0\FutureLogistics.genruntimeconfig.cache
+C:\Users\dell\OneDrive\Desktop\FutureLogistics\obj\Debug\net10.0\ref\FutureLogistics.dll
