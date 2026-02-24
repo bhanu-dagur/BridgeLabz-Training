@@ -460,6 +460,367 @@ The goal of this repository is to strengthen **real-world problem solving**, **l
   - **Future Logistics**
 
 ---
+# 📘 Learning Progress & Hands-On Implementation Log
+
+---
+
+# 📅 02 February 2026  
+## 📘 Topic: OOP Design Principles
+
+## 🔹 SOLID Principles
+
+### S — Single Responsibility Principle (SRP)
+A class should have only one reason to change.  
+Each class should handle only one responsibility.
+
+### O — Open/Closed Principle (OCP)
+Software entities should be open for extension but closed for modification.  
+You should be able to add new functionality without changing existing code.
+
+### L — Liskov Substitution Principle (LSP)
+Derived classes should be replaceable with their base classes without affecting correctness.  
+Child classes must not break parent class behavior.
+
+### I — Interface Segregation Principle (ISP)
+Clients should not be forced to depend on interfaces they do not use.  
+Prefer multiple small, specific interfaces over one large interface.
+
+### D — Dependency Inversion Principle (DIP)
+High-level modules should not depend on low-level modules.  
+Both should depend on abstractions (interfaces).
+
+---
+
+## 🔹 Other Design Principles
+
+### KISS (Keep It Simple, Stupid)
+Keep the design simple and easy to understand.  
+Avoid unnecessary complexity and over-engineering.  
+Simple code is easier to maintain and debug.
+
+### DRY (Don't Repeat Yourself)
+Avoid duplicating code.  
+Extract reusable logic into methods, classes, or utilities.  
+This improves maintainability and reduces errors.
+
+### DIY (Do It Yourself)
+Learn by implementing concepts yourself.  
+Break problems into smaller parts and solve them step by step.  
+Hands-on implementation improves understanding and skill.
+
+---
+
+# 📅 03 February 2026  
+## 📘 Topic: Design Patterns
+
+Design Patterns are reusable solutions to common software design problems.  
+They provide best practices to make code flexible, maintainable, and scalable.
+
+---
+
+## 🔹 Types of Design Patterns
+
+### 1️⃣ Creational Design Patterns
+These patterns deal with object creation mechanisms.
+
+- Singleton  
+  Ensures a class has only one instance and provides a global access point to it.
+
+- Factory Method  
+  Creates objects without specifying the exact class of object that will be created.
+
+- Abstract Factory  
+  Provides an interface for creating families of related objects.
+
+- Builder  
+  Constructs complex objects step by step.
+
+- Prototype  
+  Creates new objects by copying an existing object.
+
+---
+
+### 2️⃣ Structural Design Patterns
+These patterns deal with object composition and relationships.
+
+- Adapter  
+  Allows incompatible interfaces to work together.
+
+- Bridge  
+  Separates abstraction from implementation so both can vary independently.
+
+- Composite  
+  Treats individual objects and groups of objects uniformly.
+
+- Decorator  
+  Adds new functionality to objects dynamically without modifying their structure.
+
+- Facade  
+  Provides a simplified interface to a complex system.
+
+- Proxy  
+  Provides a placeholder or surrogate for another object.
+
+---
+
+### 3️⃣ Behavioral Design Patterns
+These patterns focus on communication between objects.
+
+- Observer  
+  Defines a one-to-many dependency so that when one object changes state, others are notified.
+
+- Strategy  
+  Defines a family of algorithms and makes them interchangeable.
+
+- Command  
+  Encapsulates a request as an object.
+
+- State  
+  Allows an object to change behavior when its internal state changes.
+
+- Template Method  
+  Defines the skeleton of an algorithm in a method and lets subclasses override specific steps.
+
+- Iterator  
+  Provides a way to access elements of a collection sequentially.
+
+- Mediator  
+  Defines an object that controls communication between other objects.
+
+---
+
+## 🔹 Why Use Design Patterns?
+
+- Improve code reusability  
+- Make code easier to maintain  
+- Reduce tight coupling  
+- Follow industry best practices  
+- Improve scalability and flexibility  
+
+---
+
+# 📅 04 February 2026  
+## 📘 Topic: Multithreading in .NET
+
+Multithreading means running multiple threads in parallel to improve performance and responsiveness.
+
+### 🔹 Common Uses
+- Background tasks (file I/O, network calls)  
+- Parallel processing  
+- Keeping UI responsive (WinForms/WPF)  
+
+---
+
+## 🔹 Thread vs Task
+
+### Thread
+- Lower-level API (System.Threading.Thread)  
+- Manually created and managed  
+- More control, heavier and harder to manage  
+
+### Task
+- Higher-level API (System.Threading.Tasks.Task)  
+- Uses Thread Pool internally  
+- Easier and recommended for async programming  
+
+---
+
+## 🔹 Threading Models in .NET
+
+### 1️⃣ Thread (Manual Threading)
+Create and run a thread manually.  
+Used when full control is needed.
+
+### 2️⃣ ThreadPool
+Built-in reusable threads managed by .NET.  
+Efficient for short tasks.
+
+### 3️⃣ Task Parallel Library (TPL)
+Modern approach.  
+Supports:
+- Task  
+- Task.Run  
+- Parallel.For  
+- Parallel.ForEach  
+
+### 4️⃣ async/await
+Preferred for I/O-bound operations.  
+Improves responsiveness without blocking threads.
+
+---
+
+## 🔹 Synchronization (Avoid Race Conditions)
+
+### Common Issues
+- Race Condition  
+- Deadlock  
+- Data Corruption  
+
+### Solutions
+- lock (Monitor)  
+- Mutex  
+- Semaphore / SemaphoreSlim  
+- Interlocked  
+- Concurrent Collections  
+
+---
+
+## 🔹 Common Problems
+
+### Race Condition
+Two threads update the same variable simultaneously → incorrect result.
+
+### Deadlock
+Thread A waits for Thread B, and Thread B waits for Thread A → program stuck.
+
+### Starvation
+A thread never gets CPU time because others keep running.
+
+---
+
+## 🔹 Best Practices
+
+- Prefer Task + async/await  
+- Avoid shared mutable state  
+- Use thread-safe collections  
+- Keep lock blocks small  
+- Avoid blocking ThreadPool threads  
+
+---
+
+# 📅 05 February 2026  
+## 📘 Topic: SQL & RDBMS Concepts
+
+### Topics Covered
+
+- Database Design Principles  
+- Normalization (1NF, 2NF, 3NF, BCNF)  
+- Primary Keys & Foreign Keys  
+- One-to-One, One-to-Many, Many-to-Many Relationships  
+- SELECT, INSERT, UPDATE, DELETE  
+- INNER, LEFT, RIGHT, FULL Joins  
+- Subqueries & Nested Queries  
+- Aggregate Functions  
+- Transactions (ACID Properties)  
+- Indexing & Query Optimization  
+- Performance Tuning  
+- Database Security Best Practices  
+
+---
+
+# 📅 06 February 2026  
+## 📘 Topic: Microsoft SQL Server (MSSQL)
+
+### Core Concepts
+
+- SQL Syntax  
+- Primary Key  
+- Foreign Key  
+- Unique Key  
+- Check Constraint  
+- Default Constraint  
+
+### Joins & Subqueries
+- INNER JOIN  
+- LEFT JOIN  
+- RIGHT JOIN  
+- FULL JOIN  
+- Correlated & Nested Subqueries  
+
+### Aggregates
+- COUNT()  
+- SUM()  
+- AVG()  
+- MIN()  
+- MAX()  
+- GROUP BY  
+- HAVING  
+
+### Advanced Concepts
+- Stored Procedures  
+- User Defined Functions  
+- Views  
+- Cursors  
+- GRANT  
+- REVOKE  
+- DENY  
+
+---
+
+# 📅 07 February 2026  
+## 📘 Topic: Practical Implementation
+
+Solved practical problems related to:
+
+- SQL & RDBMS  
+- Database Design  
+- Keys & Constraints  
+- Joins & Transactions  
+- Stored Procedures  
+- Performance Optimization  
+- Security Practices  
+
+Each problem was solved with a real-world mindset.
+
+---
+
+# 📅 09 February 2026  
+## 📘 Topic: Hands-On Project – Hospital Management System
+
+Design and implementation of:
+
+- Tables  
+- Keys  
+- Relationships  
+- Constraints  
+
+Modules:
+- Patient Management  
+- Doctors  
+- Appointments  
+- Visits  
+- Billing  
+
+Goal:
+Strengthen SQL + RDBMS fundamentals and industry-level implementation skills.
+
+---
+
+# 📅 10–12 February 2026  
+## 📘 Topic: Detailed Use Case Implementation
+
+### 1️⃣ Patient Management
+- Register Patient  
+- Update Patient  
+- Search Patient  
+- View Visit History  
+
+### 2️⃣ Doctor Management
+- Add Doctor  
+- Update Specialty  
+- View by Specialty  
+- Deactivate Doctor  
+
+### 3️⃣ Appointment Scheduling
+- Book Appointment  
+- Check Availability  
+- Cancel Appointment  
+- Reschedule Appointment  
+- View Daily Schedule  
+
+### 4️⃣ Visit & Medical Records
+- Record Visit  
+- View Medical History  
+- Add Prescription  
+
+### 5️⃣ Billing & Payments
+- Generate Bill  
+- Record Payment  
+- View Outstanding Bills  
+- Generate Revenue Report  
+
+---
+
 
 
 ## 🧠 Key Skills Gained
@@ -489,18 +850,6 @@ The goal of this repository is to strengthen **real-world problem solving**, **l
 - **Testing:** Unit Testing with NUnit
 
 ---
-
-## 🎯 Purpose of This Repository
-
-This repository serves as:
-- A **learning journal**
-- A **practice archive for interviews**
-- A reference for **scenario-based problem solving**
-- A demonstration of **DSA + OOPS integration in C#**
-
----
-
-⭐ *Feel free to explore, learn, and improve!*  
 
 
 ✅ **Status:** Completed  
